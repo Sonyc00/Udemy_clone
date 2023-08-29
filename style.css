@@ -397,13 +397,13 @@ small {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  padding: 50px 20px;
+  padding: 50px 10px;
   margin: 50px 0px;
   font-family: arial;
   justify-content: space-around;
 
   height: 55vh;
-  width: 100%;
+  width: 99%;
 }
 .topy1 {
   font-size: x-large;
@@ -415,7 +415,7 @@ small {
   height: 50vh;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 99.6%;
 }
 
 .talker1 {
@@ -464,4 +464,38 @@ small {
 
 .top7 {
   font-size: 1.7em;
+}
+
+.bottom1 {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  justify-content: space-around;
+  /* margin: 30px 10px; */
+}
+
+.bottom1 h1 {
+  font-weight: bolder;
+  font-family: arial;
+  font-size: 1.5em;
+}
+
+.bottom2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 80vh;
+}
+
+.bottom3 {
+  height: 60vh;
+  justify-content: space-between;
+}
+
+.bottom3 figcaption p {
+  font-weight: bolder;
+  font-family: arial;
+  font-size: 300;
 }
